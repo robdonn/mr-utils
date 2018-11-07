@@ -1,0 +1,23 @@
+{
+  "name": "mr-utils",
+  "version": "0.1.0",
+  "description": "Monorepo Utilities",
+  "main": "index.js",
+  "repository": "git@github.com:robdonn/mrutils.git",
+  "author": "Robert Donnelly <dev@robdonn.com> (https://www.robdonn.com)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lerna:list": "lerna list"
+  },
+  "workspaces": {
+    "packages": [
+      "eslint/*",
+      "tools/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.4.0",
+    "typescript": "^3.1.1"
+  }
+}
